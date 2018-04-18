@@ -5,12 +5,14 @@ import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 
 import { AppComponent } from './app.component';
 import { UserComponent } from './user/user.component';
+import { ProjetComponent } from './projet/projet.component';
 
 
 @NgModule({
   declarations: [
     AppComponent,
-    UserComponent
+    UserComponent,
+    ProjetComponent
   ],
   imports: [
 
